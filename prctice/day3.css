@@ -1,0 +1,53 @@
+body{
+    background-color: grey;
+}
+header{
+    display:flex;
+    background-color: black;
+    color:white;
+    justify-content: space-between;
+    padding: 10px;
+}
+a{
+    color: white;
+    text-decoration: 0;
+    margin-left: 10px;
+}
+.one{
+height: 60vh;
+background: url(https://wallpaperaccess.com/full/1376495.jpg);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.btn{
+    padding:10px;
+    margin: 10px;
+    background-color: bisque;
+}
+.btn:hover{
+    background-color: burlywood;
+    color: blue;
+}
+.per{
+    width: 50%;
+    height: 100px;
+    background-color: aqua;
+    text-align: center;
+    padding-top: 60px;
+}
+.vh{
+    height: 20vh;
+    text-align: center;
+    background-color: cadetblue;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#unit{
+    text-align: center;
+    background-color:aliceblue;
+    padding: 10px;
+}
