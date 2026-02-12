@@ -1,5 +1,7 @@
 *{
     text-decoration: 0;
+    margin: 20px;
+    padd
 }
 body{
     background-color:#0f172a;
@@ -32,7 +34,14 @@ nav{
     justify-content: center;
     align-items: center;
     gap:10px;
+
+}
+.btn{
+border-radius: 25%;
+padding: 12px;
+color: white;
+background-color: #6C63FF;
 }
 a{
-    color: white
+    color: white;
 }
