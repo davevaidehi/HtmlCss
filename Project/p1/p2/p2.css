@@ -1,7 +1,5 @@
 *{
     text-decoration: 0;
-    margin: 20px;
-    padd
 }
 body{
     background-color:#0f172a;
@@ -11,6 +9,7 @@ body{
     display: flex;
     color: white;
     justify-content: space-between;
+    align-items: center;
     padding: 10px;
     position: fixed;
     top: 0;
@@ -24,6 +23,7 @@ body{
     font-size: medium;
     font-weight: 700;
     color: #fff;
+    padding-left: 80px;
 }
 .logo span{
     color: #6C63FF;
@@ -41,6 +41,7 @@ border-radius: 25%;
 padding: 12px;
 color: white;
 background-color: #6C63FF;
+
 }
 a{
     color: white;
