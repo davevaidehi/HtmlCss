@@ -1,4 +1,6 @@
+*{
 
+}
 h2{
     color:brown;
 text-align: center;
@@ -33,9 +35,20 @@ img{
     transition:transform 0.3s ease-in-out;
 }
 img:hover{
-    transform: scale(1.25);
+    transform: scale(1.15);
     border-radius: 15%;
 }
-.class{
+#class{
     width:100%;
+}
+#site{
+    background-color: antiquewhite;
+    display: flex;
+    gap: 150px;
+    padding-left: 100px;
+}
+.btn{
+    border-radius: 10px;
+    background-color: rgb(240, 174, 187);
+    
 }
