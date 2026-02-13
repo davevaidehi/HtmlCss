@@ -62,3 +62,7 @@ a{
 a:hover{
    text-decoration:underline;
 }
+form{
+    padding: 20px;
+    
+}
