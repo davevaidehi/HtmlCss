@@ -1,0 +1,41 @@
+
+h2{
+    color:brown;
+text-align: center;
+background-color: burlywood;
+}
+.one{
+
+    background-color: antiquewhite;
+    padding-top: 10px;
+
+}
+.two{
+    background-color:rgb(247, 215, 155);
+text-align: center;
+    height:225px;
+    width: 225px;
+    border-radius: 25%;
+      border: 5px dotted rgb(240, 181, 71);
+}
+#box{
+    display: flex;
+    gap:15px;
+    padding: 25px;
+    justify-content: center;
+
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 27%;
+    margin-top: 10px;
+    transition:transform 0.3s ease-in-out;
+}
+img:hover{
+    transform: scale(1.25);
+    border-radius: 15%;
+}
+.class{
+    width:100%;
+}
