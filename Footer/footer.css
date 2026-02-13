@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+padding: 0;
+}
+#head{
+    display: flex;
+    gap: 10px;
+}
+.mail{
+   border-radius: 50%;
+   height: 30px;
+   width: 30px;
+}
+#log{
+    height:50px
+}
+footer{
+    background-color: green;
+}
+h3{
+    color:rgb(233, 181, 84);
+}
+p{
+    color: aliceblue;
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    padding:20px;
+}
+h2{
+    color: rgb(136, 201, 39);
+}
+span{
+    color: orange;
+}
+#links{
+    display: flex;
+    gap: 30px;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+form{
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+}
+a{
+        text-decoration: 0;
+    color: white;
+}
+.social{
+    height:30px;
+    width: 30px;
+    border-radius: 50%;
+}
+a:hover{
+   text-decoration:underline;
+}

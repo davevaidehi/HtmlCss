@@ -44,3 +44,6 @@ a{
 section{
     text-align: center;
 }
+.b  { 
+     background: linear-gradient(to right, #6C63FF, #00d2ff)
+}
