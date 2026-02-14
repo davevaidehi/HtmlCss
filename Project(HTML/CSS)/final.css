@@ -1,0 +1,170 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #74ebd5, #9face6);
+}
+
+
+#header {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    animation: fadeIn 2s ease-in;
+}
+
+
+nav {
+    background: #333;
+    text-align: center;
+    padding: 15px;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+
+nav a:hover {
+    color: #74ebd5;
+    transform: scale(1.1);
+}
+
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+
+button[type="button"] {
+    background: #222;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+button[type="button"]:hover {
+    background: #555;
+    transform: translateY(-5px);
+}
+
+.card {
+    background:rgb(214, 217, 248) ;
+    padding: 20px;
+    margin-top: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    display: flex;
+    gap:15px;
+    flex-wrap: wrap;
+
+    
+}
+
+/* ===== Card Hover Effect ===== */
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.3);
+}
+
+/* ===== Pseudo-element Selector ===== */
+ h2::after {
+    content: " ✨";
+}
+
+/* ===== Footer Styling ===== */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* ===== Keyframe Animation ===== */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.trend{
+    text-align: center;
+}
+#logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 20px;
+
+}
+#main{
+    height: 100px;
+    width: 100px;
+    
+}
+#head{
+    display: flex;
+    justify-content: center;
+}
+.trending{
+    height: 181px;
+    width: 150px;
+    border-radius: 5%;
+    transition: transform 0.3s ease-in-out;
+}
+.trending:hover{
+transform: scale(1.05);
+opacity: 45%;
+}
+#about{
+    text-align: center;
+}
+.whyus{
+    display: flex;
+    justify-content: center;
+}
+#des{
+    color: #555;
+    font-size: small;
+}
+.us{
+    text-align: center;
+}
+#foot{
+    height: 80px;
+}
+#contact{
+    text-align: center;
+}
+form{
+    padding: 10%;
+}
+#submit{
+    background:rgb(142, 238, 238);
+    padding:10px;
+    border-radius: 10%;
+}
+#email{
+    padding: 10px;
+    opacity: 70%;
+    
+}

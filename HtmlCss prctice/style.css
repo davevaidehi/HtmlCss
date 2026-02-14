@@ -52,20 +52,20 @@ h2{
     transform: scale(1) rotate(10deg);
 }
 .animation-spin {
-    /* We reference the keyframe name 'spin-around' defined below */
+
     animation-name: spin-around;
     animation-duration: 2s;
-    animation-timing-function: linear; /* Linear is best for spinning so it doesn't stop */
-    animation-iteration-count: infinite; /* Never stops */
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 
-/* The Recipe for the animation */
+
 @keyframes spin-around {
     from { transform: rotate(0deg); }
     to   { transform: rotate(360deg); }
 }
 
-/* --- 5. Color Shifter (Using Percentages) --- */
+
 .animation-color {
     animation: rainbow-shift 4s infinite;
 }
@@ -76,9 +76,9 @@ h2{
     100% { background-color: white; border-color: #ddd; }
 }
 
-/* --- 6. Bouncing Ball (Direction & Alternate) --- */
+
 .animation-bounce {
-    justify-content: flex-end; /* Push content to bottom */
+    justify-content: flex-end;
     padding-bottom: 20px;
 }
 
@@ -86,21 +86,20 @@ h2{
     width: 40px;
     height: 40px;
     background-color: #ff6b6b;
-    border-radius: 50%; /* Make it a circle */
+    border-radius: 50%;
     
-    /* Animation Shorthand: name | duration | timing | delay | iteration | direction */
+
     animation: bounce-ball 0.8s ease-in infinite alternate;
-    /* 'alternate' plays forward then backward (Up then Down) */
+  
 }
 
 @keyframes bounce-ball {
-    0% { transform: translateY(0); } /* Starting position */
-    100% { transform: translateY(-100px); } /* Jump up */
+    0% { transform: translateY(0); } 
+    100% { transform: translateY(-100px); } 
 }
 
-/* --- 7. Fill Mode (Keeping the final state) --- */
-/* By default, animations reset to original state when done. 
-   'forwards' makes it stay at the 100% state. */
+
+
 .animation-fill:hover {
     animation: slide-right 1s forwards; 
 }
